@@ -1,0 +1,118 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.main {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), 
+    url("../images/header.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .title {
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    white-space: wrap;
+    text-align: center;
+    letter-spacing: 2px;
+    /* border: 1px solid #ffffff; */
+    border-radius: 30px;
+}
+
+.main__text {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.porfolio {
+    background-color: #ebc105;
+}
+
+.portfolio__name, .author__tilte {
+    padding: 3rem 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.portfolio__work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio__work .card {
+    margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .3s all;
+    opacity: 0.7;
+}
+
+.portfolio__work .card:last-child {
+    margin-bottom: 3rem;
+}
+
+.portfolio__work .card:hover {
+    box-shadow: 2px 2px 20px 3px #000;
+    transition: .3s all;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.author {
+    background-color: #28627e;
+}
+
+.author__images {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    text-align: center;
+}
+
+.author_pictures {
+    max-width: 320px;
+    /* padding-right: 2rem; */
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+.author_desc {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 1.5rem 0;
+}
+
+.author_copyring p {
+    margin: 0;
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
